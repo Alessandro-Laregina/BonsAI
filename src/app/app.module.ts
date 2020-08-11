@@ -25,6 +25,7 @@ import { DialogTeamComponent } from './dialog-team/dialog-team.component';
     DialogInfoComponent,
     DialogTeamComponent
   ],
+  entryComponents: [DialogInfoComponent, DialogTeamComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
