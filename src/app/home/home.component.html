@@ -1,0 +1,87 @@
+<!-- Header -->
+<div>
+    <div class="header">
+        <div class="titleHeader" routerLink="/">
+            BonsAI</div>
+        <div style="height: 40px;">
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                <img src="https://img.icons8.com/clouds/100/000000/bonsai.png" height="40px" />
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item (click)="openDialog()">
+                    <mat-icon>help</mat-icon>
+                    <span>FAQ</span>
+                </button>
+                <button mat-menu-item (click)="openDialogTeam()">
+                    <mat-icon>group</mat-icon>
+                    <span>Team</span>
+                </button>
+            </mat-menu>
+        </div>
+    </div>
+    <div class="box">
+        <!-- AI -->
+        <div style="text-align: -webkit-center;">
+            <mat-card class="example-card">
+                <mat-card-header style="justify-content: center;">
+                    <div mat-card-avatar class="ia-header-image"></div>
+                    <mat-card-title routerLink="/ai" class="cursor">BonsAI</mat-card-title>
+                    <mat-card-subtitle>04/2020</mat-card-subtitle>
+                </mat-card-header>
+                <img class="imageClass" mat-card-image src="https://img.icons8.com/cotton/512/000000/brain-3.png" />
+                <mat-card-content>
+                    <p>
+                        L'intelligenza artificiale creata per la prevenzione delle situazioni di emergenza.
+                    </p>
+                </mat-card-content>
+                <mat-card-actions style="text-align: center;">
+                    <button mat-raised-button color="primary" routerLink="/ai">IA</button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+        <div style="margin: 20px 0;"></div>
+
+        <!-- APP -->
+        <div style="text-align: -webkit-center;">
+            <mat-card class="example-card">
+                <mat-card-header style="justify-content: center;">
+                    <div mat-card-avatar class="app-header-image"></div>
+                    <mat-card-title routerLink="/app" class="cursor">Ipanic</mat-card-title>
+                    <mat-card-subtitle>2020</mat-card-subtitle>
+                </mat-card-header>
+                <img class="imageClass" mat-card-image
+                    src="https://img.icons8.com/plasticine/400/000000/playstore.png" />
+                <mat-card-content>
+                    <p>
+                        L'App sviluppata per aiutare sia le persone che i soccorsi durante le situazioni di emergenza
+                    </p>
+                </mat-card-content>
+                <mat-card-actions style="text-align: center;">
+                    <button mat-raised-button color="primary" routerLink="/app">APP</button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+        <div style="margin: 20px 0;"></div>
+        <!-- Smart Band -->
+        <div style="text-align: -webkit-center;">
+            <mat-card class="example-card">
+                <mat-card-header style="justify-content: center;">
+                    <div mat-card-avatar class="band-header-image"></div>
+                    <mat-card-title routerLink="/smart-band" class="cursor">BandAI</mat-card-title>
+                    <mat-card-subtitle>2020</mat-card-subtitle>
+                </mat-card-header>
+                <img class="imageClass" mat-card-image
+                    src="https://img.icons8.com/cotton/512/000000/apple-watch-apps.png" />
+                <mat-card-content>
+                    <p>
+                        La smart band costruita per chi non ha dimestichezza con gli smartphone
+                    </p>
+                </mat-card-content>
+                <mat-card-actions style="text-align: center;">
+                    <button mat-raised-button color="primary" routerLink="/smart-band">Smart Band</button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+
+</div>

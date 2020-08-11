@@ -1,0 +1,50 @@
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    text-align: center;
+    width: 300px;
+}
+
+.scroll {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.team {
+    width: auto;
+}
+
+.teamCard {
+    display: flex;
+    text-align: -webkit-center;
+    margin-bottom: 20px;
+}
+
+.marginUp {
+    margin-top: 0;
+}
+
+.marginR {
+    margin-right: 30px;
+}
+
+@media screen and (max-width:600px) {
+    .teamCard {
+        display: block;
+    }
+    .marginUp {
+        margin-top: 20px;
+    }
+    .marginR {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .card {
+        width: 200px;
+    }
+}

@@ -1,0 +1,62 @@
+.container {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.iconBack {
+    margin: 0;
+    float: left;
+    font-size: 30px;
+}
+
+.iconBack:hover {
+    cursor: pointer;
+}
+
+.example-card {
+    max-width: 300px;
+    height: 400px;
+}
+
+.app-header-image {
+    background-image: url('https://img.icons8.com/pastel-glyph/64/000000/bandage.png');
+    background-size: cover;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.ia-header-image {
+    background-image: url('https://img.icons8.com/cotton/512/000000/brain-3.png');
+    background-size: cover;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.band-header-image {
+    background-image: url('https://img.icons8.com/cotton/512/000000/apple-watch-apps.png');
+    background-size: cover;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .box {
+        display: block;
+    }
+}
+
+.imageClass2 {
+    width: 300px;
+}
